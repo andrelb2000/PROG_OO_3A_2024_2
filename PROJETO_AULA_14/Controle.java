@@ -12,6 +12,7 @@ public class Controle {
         Pessoa p;
         ArrayList<Pessoa> lista = new ArrayList<>();
         while (resposta != 6) {
+            /// CONSOLE!! O que o usuario digitou ? ///
             resposta = console.menu();
             switch (resposta) {
                 case 1:
